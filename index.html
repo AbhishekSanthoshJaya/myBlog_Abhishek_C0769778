@@ -8,14 +8,14 @@
 </head>
 <body>
     <div id="headercontainer">
-        <!-- Front page banner -->
+    <!-- Front page banner -->
         <header>
             <a href="index.html"
               ><img src="images/logo2.png" alt="logo"
             /></a>
           </header>
 
-   <!-- this area is for the hyperlinks to other pages -->
+   <!-- Nav bar items for moving to different pages -->
    <nav>
     <ul>
       <li><a href="personal.html">Personal</a></li>
@@ -29,13 +29,18 @@
   <!-- main content of the website -->
   <main>
       <article>
-          <h1><p>Welcome to the personal blog of Abhishek Santhosh Jaya! 
-              Use the navigation bar items to find more information about me.</p></h1>
+          <div>
+              <img class ="banner" src="images/banner.png" alt="home_banner"><br/>
+              <p class="welcometext"> Welcome to the personal blog of Abhishek Santhosh Jaya! 
+                I'm a student from Kerala, India. I'm currently doing a postgraduate course in Toronto, Canada.
+                If you want to find out more about me, please use the navigation bars at the top. If you wanna check out the projects my brother
+                and I have worked on or my own github repositories, please check the related links section. Happy browsing!</p>
+        </div>
       </article>
   </main>
 
   <aside>
-    <section>
+    <section class="share">
       <h2>Share</h2>
       <ul>
         <li><a href="#">Facebook</a></li>
@@ -43,22 +48,16 @@
         <li><a href="#">Email</a></li>
       </ul>
     </section>
-    <section>
-      <h2>Recommended</h2>
-      <ul>
-        <li>
+    <section class="relatedlinks">
+      <h2>Related Links</h2>
           <article>
-            <h3><a href="#">Related article</a></h3>
-            <p>Article description</p>
+            <h3><a href="https://github.com/AbhishekSanthoshJaya"><img class="related" src="images/githubbanner.png" alt="github"></a></h3>
+            <p>Click to see my github repositories</p>
           </article>
-        </li>
-        <li>
           <article>
-            <h3><a href="#">Related article</a></h3>
-            <p>Article description</p>
+            <h3><a href="https://abhijithsrealm.wordpress.com/"><img class="related" src="images/peers.png" alt="github"></a></h3>
+            <p>Check out my brother's work</p>
           </article>
-        </li>
-      </ul>
     </section>
   </aside>
 
