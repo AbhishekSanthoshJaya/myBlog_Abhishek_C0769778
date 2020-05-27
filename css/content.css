@@ -72,6 +72,34 @@ p
     text-align: justify;
 }
 
+#jobs
+{
+    margin-top: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f94c60;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.joblogos
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+dt
+{
+    padding: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+dd
+{
+
+}
+
 h2, h4
 {
     color: #f94c60;
@@ -304,6 +332,14 @@ footer
     @keyframes fade {
         from {opacity: .4}
         to {opacity: 1}
+    }
+
+    dt
+    {
+        padding: 1.2em;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
     }
 
 }
@@ -572,5 +608,13 @@ footer
     @keyframes fade {
         from {opacity: .4}
         to {opacity: 1}
+    }
+
+    dt
+    {
+        padding: 1.2em;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
     }
 }
