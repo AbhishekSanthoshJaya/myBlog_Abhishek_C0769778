@@ -239,7 +239,7 @@ footer
     display: inline;
 }
 
-.projectsarticle
+.contactarticle
 {
     background-color:#ffd9dd;
     border-radius: 0.6em;
@@ -635,6 +635,14 @@ footer
         text-decoration: underline;
     }
 
+    .contactarticle
+    {
+        background-color:#ffd9dd;
+        border-radius: 0.6em;
+        padding-left: 0.3em;
+        margin-left: 12em;
+    }
+
     .mobile
     {
         display: none;
@@ -644,4 +652,5 @@ footer
     {
         display: inline;
     }
+
 }
