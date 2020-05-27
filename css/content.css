@@ -229,6 +229,23 @@ footer
     color:white;
 }
 
+.desktop
+{
+    display: none;
+}
+
+.mobile
+{
+    display: inline;
+}
+
+.projectsarticle
+{
+    background-color:#ffd9dd;
+    border-radius: 0.6em;
+    padding-left: 0.3em;
+}
+
 /* Styling for tablet viewport begins here */
 @media only screen and (min-width: 688px)
 {
@@ -616,5 +633,15 @@ footer
         font-style: italic;
         font-weight: bold;
         text-decoration: underline;
+    }
+
+    .mobile
+    {
+        display: none;
+    }
+
+    .desktop
+    {
+        display: inline;
     }
 }
