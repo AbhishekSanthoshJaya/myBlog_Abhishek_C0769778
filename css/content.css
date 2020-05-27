@@ -125,6 +125,12 @@ footer
         display: none;
     }
 
+    .mySlides2
+    {
+        display: none;
+    }
+
+    
 .video
     {
         margin-left: auto;
@@ -235,6 +241,14 @@ footer
         text-decoration: none;
     }
 
+    .hobbiesaside
+    {
+        font-size: 0.8em;
+        color: white;
+        margin-top: -150em;
+        text-decoration: none;
+    }
+
     aside ul
     {
         font-size: 2em;
@@ -307,7 +321,7 @@ footer
         text-align: center;
       }
 
-      .mySlides2 {
+    .mySlides2 {
         display: none;
         text-align: center;
       }

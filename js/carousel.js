@@ -8,17 +8,17 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
 function plusSlides2(n) {
   showSlides2(slideIndex2 += n);
 }
 
 function currentSlide2(n) {
   showSlides2(slideIndex2 = n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
