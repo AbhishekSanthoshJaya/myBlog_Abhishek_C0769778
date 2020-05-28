@@ -97,7 +97,7 @@ dt
 
 dd
 {
-
+    margin-right: 6em;
 }
 
 h2, h4
@@ -109,6 +109,7 @@ h2, h4
 aside
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: none;
 }
 
 aside li
@@ -246,8 +247,28 @@ footer
     padding-left: 0.3em;
 }
 
-/* Styling for tablet viewport begins here */
-@media only screen and (min-width: 688px)
+table {
+    border: 1px solid #f94c60;
+    padding: 0.5em;
+    color: aliceblue;
+  }
+
+  td
+  {
+    border: 1px solid #f94c60;
+    padding: 0.2em;
+
+  }
+
+  th
+  {
+    border: 1px solid #f94c60;
+    text-align: center;
+    padding: 0.2em;
+  }
+  
+  /* Styling for tablet viewport begins here */
+@media only screen and (min-width: 668px)
 {
     nav
     {
@@ -427,18 +448,26 @@ footer
     /* Styling for aside */
     aside
     {
-        
-        font-size: 0.8em;
+        display: block;
+        font-size: 0.6em;
         color: white;
         margin-top: -118em;
         text-decoration: none;
     }
 
+    .projectsaside
+    {
+        font-size: 0.6em;
+        color: white;
+        margin-top: -210em;
+        text-decoration: none;
+    }
+    
     .hobbiesaside
     {
-        font-size: 0.8em;
+        font-size: 0.6em;
         color: white;
-        margin-top: -150em;
+        margin-top: -190em;
         text-decoration: none;
     }
 
@@ -640,7 +669,9 @@ footer
         background-color:#ffd9dd;
         border-radius: 0.6em;
         padding-left: 0.3em;
-        margin-left: 12em;
+        margin-left: auto;
+        margin: auto;
+        width: 80%;
     }
 
     .mobile
@@ -652,5 +683,15 @@ footer
     {
         display: inline;
     }
+    
+    table
+    {
+        width: 100%;
+        padding: 1em;
+    }
 
+    th,td
+    {
+        padding: 0.5em;
+    }
 }
