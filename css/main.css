@@ -61,19 +61,19 @@ nav li a
 {
     list-style-type: none;
     text-decoration: none;
-    color: #f94c60;
+    color: #e6e6e6;
 }
 
 nav li:hover
 {
-    background-color: white;
+    background-color: #f94c60;
 }
 
 p
 {
     margin-top: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #f94c60;
+    color: #e6e6e6;
     font-size: 0.8em;
     text-align: justify;
 }
@@ -88,7 +88,7 @@ p
 
 h2
 {
-    color: #f94c60;
+    color: #e6e6e6;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 

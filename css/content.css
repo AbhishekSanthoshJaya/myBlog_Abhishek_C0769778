@@ -66,12 +66,12 @@ nav li a
 {
     list-style-type: none;
     text-decoration: none;
-    color: #f94c60;
+    color: black;
 }
 
 nav li:hover
 {
-    background-color: white;
+    background-color: #f94c60;
 }
 
 /* styles for paragraphs */
@@ -79,7 +79,7 @@ p
 {
     margin-top: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #f94c60;
+    color: #e6e6e6;
     font-size: 0.8em;
     text-align: justify;
 }
@@ -89,7 +89,7 @@ p
 {
     margin-top: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #f94c60;
+    color: #e6e6e6;
     font-size: 0.8em;
     text-align: justify;
 }
@@ -118,7 +118,7 @@ dd
 /* styles for headers */
 h2, h4
 {
-    color: #f94c60;
+    color: #e6e6e6;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -275,21 +275,21 @@ color:white;
 
 /* styles for tables */
 table {
-    border: 1px solid #f94c60;
+    border: 1px solid #e6e6e6;
     padding: 0.5em;
     color: aliceblue;
   }
 
   td
   {
-    border: 1px solid #f94c60;
+    border: 1px solid #e6e6e6;
     padding: 0.2em;
 
   }
 
   th
   {
-    border: 1px solid #f94c60;
+    border: 1px solid #e6e6e6;
     text-align: center;
     padding: 0.2em;
   }
@@ -341,11 +341,17 @@ table {
         padding-right: 0.2em;
         margin-left: -0.2em;
         background: transparent;
+        color: #e6e6e6;
+    }
+
+    nav li a
+    {
+        color: #e6e6e6;
     }
 
     nav li a:hover
     {
-       background-color: white;
+       background-color: #f94c60;
     }
     
     .related
@@ -494,6 +500,7 @@ table {
     nav li
     {
         display: inline;
+        padding: 0.5em;
         padding-left: 1.2em;
         padding-right: 1.2em;
         margin-left: -0.7em;
@@ -575,7 +582,7 @@ table {
     {
         text-decoration: none;
         color: white;
-        border: #f94c60;
+        border: #e6e6e6;
     }
 
     /* Styling for project components */
