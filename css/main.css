@@ -12,6 +12,7 @@ img
 /* styles for the Mobile Layout */
 /* styles for the id = container */
 
+
 #headercontainer 
 {
     width: 100%;
@@ -26,13 +27,18 @@ header
     text-align: center;
 }
 
+.banner
+{
+    display: none;
+}
+
  nav 
  {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.25em;
     font-weight: bold;
     text-align: center;
-}
+ }
   
 /* styles specifies the padding and margins of the unordered list in nav */
 nav ul 
@@ -72,6 +78,14 @@ p
     text-align: justify;
 }
 
+.welcometext, .relatedlinks
+{
+    font-size: 1.2em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h2
 {
     color: #f94c60;
@@ -98,33 +112,43 @@ aside
     {
         width: 25%;
     }
+
 /* Styling for tablet viewport begins here */
 @media only screen and (min-width: 688px)
 {
+    .banner
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        display: block;
+    }
+
     nav
     {
-        float: right;
-        margin-top: -1em;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
         /* margin-left: -8em; */
     }
 
     nav ul
     {
-        margin-right: 2em;
+        margin-left: 2em;
     }
 
     nav li
     {
         display: inline;
-        padding-left: 1.2em;
-        padding-right: 1.2em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
         margin-left: -0.2em;
         background: transparent;
     }
 
     .related
     {
-      width: 15%;
+      width: 25%;
     }
 }
 
