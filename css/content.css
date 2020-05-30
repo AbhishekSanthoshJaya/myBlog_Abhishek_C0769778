@@ -328,25 +328,27 @@ table {
 
     nav
     {
-        float: right;
+        /* float: right; */
         margin-top: -1em;
-        margin-left: -8em;
+        /* margin-left: -8em; */
         padding-bottom: 2em;
     }
 
     nav ul
     {
         margin-top: 0em;
-        margin-right: 3em;
-        margin-left: -1em;
+        /* margin-right: 3em;
+        margin-left: -1em; */
+        margin-left: auto;
+        margin-right: auto;
     }
 
     nav li
     {
         display: inline;
-        padding-bottom: 2em;
+        /* padding-bottom: 2em; */
         padding-left: 1em;
-        padding-right: 0.2em;
+        padding-right: 1em;
         margin-left: -0.2em;
         background: transparent;
         color: #e6e6e6;
@@ -367,6 +369,15 @@ table {
       width: 15%;
     }
 
+    .mySlides
+    {
+        display: none;
+        text-align: center;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     .gamingprev {
         cursor: pointer;
         width: auto;
@@ -381,12 +392,13 @@ table {
         color:white;
         }
     
+
     .gamingnext
     {
         cursor: pointer;
         width: auto;
         margin-top: 6em;
-        margin-left: 22em;
+        margin-left: 20em;
         padding: 1em;
         font-weight: bold;
         font-size: 1.12em;
@@ -415,7 +427,7 @@ table {
         cursor: pointer;
         width: auto;
         margin-top: 6em;
-        margin-left: 22em;
+        margin-left: 20em;
         padding: 1em;
         font-weight: bold;
         font-size: 1.12em;
@@ -457,7 +469,7 @@ table {
 
     .contactarticle
     {
-        margin-top:4em;
+        margin-top:0em;
         border-radius: 0.6em;
         padding-left: 0.3em;
         margin-left: auto;
@@ -475,10 +487,15 @@ table {
 
     .projectsarticle
     {
-        margin-left: 1em;
+        margin-left: auto;
+        margin-right: auto;
         width: 80%;
     }
     
+    table
+    {
+        width:90%;
+    }
 }
 
 /* Styling for desktop viewport begins here */
@@ -616,7 +633,7 @@ table {
 
     .projectsarticle
     {
-        margin-left: 12em;
+        margin-left: 10.5em;
         width: 80%;
     }
 
@@ -718,8 +735,8 @@ table {
     .video {
         margin-left: auto;
         margin-right: auto;
-        width: 40em;
-        height: 30em;
+        width: 32em;
+        height: 24em;
         display: block;
     }
 
@@ -772,7 +789,7 @@ table {
     
     table
     {
-        width: 100%;
+        width: 88%;
         padding: 1em;
     }
 
