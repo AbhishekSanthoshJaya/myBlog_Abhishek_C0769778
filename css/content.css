@@ -264,6 +264,9 @@ color:white;
 {
     border-radius: 0.6em;
     padding-left: 0.3em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .projectsarticle
@@ -294,6 +297,11 @@ table {
     padding: 0.2em;
   }
   
+  .video
+    {
+        display: none;
+    }
+
   /* Styling for tablet viewport begins here */
 @media only screen and (min-width: 688px)
 {
@@ -465,11 +473,11 @@ table {
         display: block;
     }
 
-    /* .projectsarticle
+    .projectsarticle
     {
         margin-left: 1em;
         width: 80%;
-    } */
+    }
     
 }
 
@@ -493,7 +501,7 @@ table {
 
     nav ul
     {
-        margin-top: 2em;
+        margin-top: 0.12em;
         margin-right: 2em;
     }
 
