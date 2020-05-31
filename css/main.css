@@ -113,6 +113,15 @@ aside
         width: 25%;
     }
 
+.relatedlinks
+    {
+        text-align: center;
+    }
+
+.relatedtext
+    {
+        text-align: center;
+    }
 /* Styling for tablet viewport begins here */
 @media only screen and (min-width: 688px)
 {
@@ -155,7 +164,17 @@ aside
     {
       width: 25%;
     }
-}
+
+    /* .relatedlinks
+    {
+        text-align: left;
+    }
+
+.relatedtext
+    {
+        text-align: left;
+    } */
+} 
 
 /* Styling for desktop viewport begins here */
 @media only screen and (min-width: 999px) 
